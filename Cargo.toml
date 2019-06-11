@@ -1,0 +1,12 @@
+[package]
+name = "test-tokio-tcp-server"
+version = "0.1.0"
+authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "tokio"
+path = "src/main.rs"
+
+[dependencies]
+tokio = "0.1.21"
